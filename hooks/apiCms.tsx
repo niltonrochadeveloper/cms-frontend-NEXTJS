@@ -1,8 +1,13 @@
-
 export async function Auth() {
 
-  const response = await fetch('http://localhost:7000/')
-  const result = await response.json()
+  const response = {
+    id: 1,
+    role: 1,
+    username: "Nilton Rocha",
+    password: "123@Qwe",
+    status: 200,
+}
+  const result = response
 
   return {
     response,
