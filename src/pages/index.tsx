@@ -64,7 +64,7 @@ export default function Index() {
 
       <div style={{width: '100vw', height: '100vh', justifyContent: 'center', alignItems: 'center'}}>
         { isLoading && <Loading /> }
-        { user.lenght > 0 && <Card username={user[0].username} /> }
+        { user.length > 0 && <Card username={user[0].username} /> }
       </div>
 
     </div>
